@@ -1,46 +1,48 @@
-
-
-
 const routes = [
   {
-    path: '/app/dashboard', // the url
-    icon: 'HomeIcon', // the component being exported from icons/index.js
-    name: 'Dashboard', // name that appear in Sidebar
+    path: "/app/dashboard", // the url
+    icon: "HomeIcon", // the component being exported from icons/index.js
+    name: "Dashboard", // name that appear in Sidebar
   },
   {
-    path: '/app/courses',
-    icon: 'TablesIcon',
-    name: 'Courses',
+    path: "/app/courses",
+    icon: "TablesIcon",
+    name: "Courses",
   },
   {
-    path: '/app/students',
-    icon: 'PeopleIcon',
-    name: 'Students',
+    path: "/app/students",
+    icon: "PeopleIcon",
+    name: "Students",
   },
   {
-    path: '/app/attendances',
-    icon: 'FormsIcon',
-    name: 'Attendance',
+    path: "/app/teachers",
+    icon: "PeopleIcon",
+    name: "Teachers",
   },
   {
-    path: '/app/announcements',
-    icon: 'FormsIcon',
-    name: 'Announcement',
+    path: "/app/attendances",
+    icon: "FormsIcon",
+    name: "Attendance",
   },
   {
-    path: '/app/requests',
-    icon: 'FormsIcon',
-    name: 'Request',
+    path: "/app/announcements",
+    icon: "FormsIcon",
+    name: "Announcement",
   },
   {
-    path: '/app/incidents',
-    icon: 'FormsIcon',
-    name: 'Incident',
+    path: "/app/requests",
+    icon: "FormsIcon",
+    name: "Request",
   },
   {
-    path: '/app/timetable',
-    icon: 'FormsIcon',
-    name: 'Timetable',
+    path: "/app/incidents",
+    icon: "FormsIcon",
+    name: "Incident",
+  },
+  {
+    path: "/app/timetable",
+    icon: "FormsIcon",
+    name: "Timetable",
   },
   // {
   //   path: '/app/forms',
@@ -118,6 +120,6 @@ const routes = [
   //   //   },
   //   // ]
   // }
-]
+];
 
-export default routes
+export default routes;

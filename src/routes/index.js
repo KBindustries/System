@@ -1,22 +1,23 @@
-import { lazy } from 'react'
+import { lazy } from "react";
 
 // use lazy for better code splitting, a.k.a. load faster
-const Dashboard = lazy(() => import('../pages/Dashboard'))
-const Courses = lazy(() => import('../pages/CourseTable'))
-const Students = lazy(()=> import ('../pages/StudentTable'))
-const Attendance = lazy(()=> import('../pages/AttendanceTable'))
-const Announcement = lazy(() => import ('../pages/AnnouncementTable'))
-const Request = lazy(() => import ('../pages/StudentRequestTable'))
-const Incident = lazy(() => import('../pages/IncidentReport'))
-const Timetable = lazy(() => import('../pages/TimetableTable'))
-const Forms = lazy(() => import('../pages/Forms'))
-const Cards = lazy(() => import('../pages/Cards'))
-const Charts = lazy(() => import('../pages/Charts'))
-const Buttons = lazy(() => import('../pages/Buttons'))
-const Modals = lazy(() => import('../pages/Modals'))
-const Tables = lazy(() => import('../pages/Tables'))
-const Page404 = lazy(() => import('../pages/404'))
-const Blank = lazy(() => import('../pages/Blank'))
+const Dashboard = lazy(() => import("../pages/Dashboard"));
+const Courses = lazy(() => import("../pages/CourseTable"));
+const Students = lazy(() => import("../pages/StudentTable"));
+const Teachers = lazy(() => import("../pages/TeachersTable"));
+const Attendance = lazy(() => import("../pages/AttendanceTable"));
+const Announcement = lazy(() => import("../pages/AnnouncementTable"));
+const Request = lazy(() => import("../pages/StudentRequestTable"));
+const Incident = lazy(() => import("../pages/IncidentReport"));
+const Timetable = lazy(() => import("../pages/TimetableTable"));
+const Forms = lazy(() => import("../pages/Forms"));
+const Cards = lazy(() => import("../pages/Cards"));
+const Charts = lazy(() => import("../pages/Charts"));
+const Buttons = lazy(() => import("../pages/Buttons"));
+const Modals = lazy(() => import("../pages/Modals"));
+const Tables = lazy(() => import("../pages/Tables"));
+const Page404 = lazy(() => import("../pages/404"));
+const Blank = lazy(() => import("../pages/Blank"));
 
 /**
  * ⚠ These are internal routes!
@@ -30,70 +31,74 @@ const Blank = lazy(() => import('../pages/Blank'))
  */
 const routes = [
   {
-    path: '/dashboard', // the url
+    path: "/dashboard", // the url
     component: Dashboard, // view rendered
   },
   {
-    path: '/courses',
+    path: "/courses",
     component: Courses,
   },
   {
-    path: '/students',
+    path: "/students",
     component: Students,
   },
   {
-    path: '/attendances',
+    path: "/teachers",
+    component: Teachers,
+  },
+  {
+    path: "/attendances",
     component: Attendance,
   },
   {
-    path: '/announcements',
+    path: "/announcements",
     component: Announcement,
   },
   {
-    path: '/requests',
+    path: "/requests",
     component: Request,
   },
   {
-    path: '/incidents',
+    path: "/incidents",
     component: Incident,
   },
   {
-    path: '/timetable',
+    path: "/timetable",
     component: Timetable,
   },
 
   {
-    path: '/forms',
+    path: "/forms",
     component: Forms,
   },
   {
-    path: '/cards',
+    path: "/cards",
     component: Cards,
   },
   {
-    path: '/charts',
+    path: "/charts",
     component: Charts,
   },
   {
-    path: '/buttons',
+    path: "/buttons",
     component: Buttons,
   },
   {
-    path: '/modals',
+    path: "/modals",
     component: Modals,
   },
   {
-    path: '/tables',
+    path: "/tables",
     component: Tables,
   },
   {
-    path: '/404',
+    path: "/404",
     component: Page404,
   },
   {
-    path: '/blank',
+    path: "/blank",
     component: Blank,
   },
-]
+];
 
-export default routes
+export default routes;

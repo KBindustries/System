@@ -1,0 +1,16 @@
+
+.main{
+    background-image: url('../../assets/img/card2.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    height: 80%;
+    /* width: 100%; */
+    border-radius: 10px;
+
+}
+.qrcode{
+    height: 160px;
+    width: 160px;
+    /* border-radius: 25px; */
+}

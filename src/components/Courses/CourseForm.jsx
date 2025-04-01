@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Button, Label, Select } from "@windmill/react-ui";
 import axios from "axios";
-import { createCourse } from "../../services/CourseService";
 
 const API_URL = "http://localhost:4000/courses";
 
